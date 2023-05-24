@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Bootstrap CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="css/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body class="lh-lg">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top fixed-top p-4" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.svg" alt="Bootstrap" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-5 mt-0 text-white text-center" style="background-image: url(img/slide-1.jpg); background-size: cover; height: 800px;">
+        <h1 class="display-3 text-center" style="margin-top: 100px;">My First Bootstrap Page</h1>
+        <p class="text-center p-2 mb-5">This container has a dark background color and a white text, and some extra padding and margins.</p>
+        <p>
+            <a href="#" class="btn btn-outline-light btn-lg my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary btn-lg my-2">Secondary action</a>
+        </p>
+    </div>
+
+    <div class="container my-5">
+        <h1 class="text-success pb-3 display-4 border-bottom border-success text-center">Welcome to My Page</h1>
+        <div class="row my-3">
+            <div class="col-sm-12 px-5 py-3">
+                <p>
+                    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </p>
+                <p>
+                    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h1 class="text-danger pb-3 display-6 border-bottom border-danger">About Me <i class="bi-person-fill"></i></h1>
+        <div class="row my-3">
+            <div class="col-md-4 text-center py-3">
+                <img src="img/uche.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle">
+            </div>
+            <div class="col-md-8 px-5 pt-5">
+                <p>
+                    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </p>
+                <p>
+                    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h1 class="text-primary pb-3 display-6 border-bottom border-primary text-end">About Me</h1>
+        <div class="row my-3">
+            <div class="col-sm-6 px-5 pt-5">
+                <p>
+                    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </p>
+                <p>
+                    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+                </p>
+            </div>
+            <div class="col-sm-6 text-center py-3">
+                <img src="img/uche.jpg" width="300" class="object-fit-cover rounded">
+            </div>
+        </div>
+    </div>
+    
+   
+    <div class="bg-dark container-fluid p-5 mb-5">
+        <blockquote class="blockquote container">
+            <p class="text-white display-6">
+                "If there's enough <span class="text-danger">Love</span> and <span class="text-info">Kindness</span> to go round, humanity would be better"
+            </p>
+            <footer class="blockquote-footer text-warning py-3">
+                Uche Blessed <span class="text-primary"><i class="bi-patch-check-fill"></i></span>
+            </footer>
+        </blockquote>
+    </div>
+
+    <div class="container my-5">
+        <h1 class="text-warning pb-3 display-6 border-bottom border-warning-subtle">My Works <span class="text-dark"><i class="bi-terminal-fill"></i></span></h1>
+        <div class="row my-3">
+            <div class="col-sm-4 col-md-4 px-5 py-3">
+                <img src="img/portfolio-1.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle" />
+                <p class="pt-3">
+                    For 50 years, WWF has been protecting the future of nature. 
+                </p>
+            </div>
+            <div class="col-sm-4 col-md-4 px-5 py-3">
+                <img src="img/portfolio-2.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle" />
+                <p class="pt-3">
+                    For 50 years, WWF has been protecting the future of nature.
+                </p>
+            </div>
+            <div class="col-sm-4 col-md-4 px-5 py-3">
+                <img src="img/portfolio-3.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle" />
+                <p class="pt-3">
+                    For 50 years, WWF has been protecting the future of nature.
+            </div>
+        </div>
+
+        <div class="row my-3">
+            <div class="col-sm-4 px-5 py-3">
+                <img src="img/portfolio-4.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle" />
+                <p class="pt-3">
+                    For 50 years, WWF has been protecting the future of nature. 
+                </p>
+            </div>
+            <div class="col-sm-4 px-5 py-3">
+                <img src="img/portfolio-5.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle" />
+                <p class="pt-3">
+                    For 50 years, WWF has been protecting the future of nature.
+                </p>
+            </div>
+            <div class="col-sm-4 px-5 py-3">
+                <img src="img/portfolio-6.jpg" width="300" class="img-thumbnail shadow-lg rounded-circle" />
+                <p class="pt-3">
+                    For 50 years, WWF has been protecting the future of nature.
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container my-5">
+        <h2>Contact Me <i class="bi-telephone-fill"></i></h2>
+        <p>Click inside the input field to see the floating label effect:</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="#"><span class="text-primary fs-1 px-2"><i class="bi-facebook"></i></span></a>
+                <a href="#"><span class="text-danger fs-1 px-2"><i class="bi-instagram"></i></span></a>
+                <a href="#"><span class="text-info fs-1 px-2"><i class="bi-twitter"></i></span></a>
+                <a href="#"><span class="text-dark fs-1 px-2"><i class="bi-github"></i></span></a>
+                <a href="#"><span class="text-warning fs-1 px-2"><i class="bi-messenger"></i></span></a>
+            </div>
+            <div class="col-sm-6">
+                <form action="/action_page.php">
+                    <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="firstname" placeholder="Firstname">
+                            <label for="firstname">Firstname</label>
+                          </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="lastname" placeholder="Lastname">
+                                <label for="lastname">Lastname</label>
+                            </div>
+                        </div>
+                      </div>
+                  <div class="form-floating mb-3 mt-3">
+                    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    <textarea class="form-control" placeholder="Leave a message here" rows="10" id="message" name="text" style="height: 100px"></textarea>
+                    <label for="message">Your Message</label>
+                  </div>
+                  <div class="form-check form-switch mb-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="newsletter">
+                    <label class="form-check-label" for="newsletter">Sign me up for newsletters</label>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="submit">Send Message <i class="bi-send-fill"></i></button>
+                  </div>
+                </form>
+            </div>
+
+        </div>
+      </div>
+
+
+    <!-- Footer -->
+    <div class="bg-dark container-fluid p-5">
+        <p class="text-center fs-5 text-light">Copyright &copy; 2023 Uche Blessed&trade; </p>
+        <p class="text-center text-light">
+            <a href="#" class="text-decoration-none">Back to top</a>
+        </p>
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </body>
+</html>
